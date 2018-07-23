@@ -12,7 +12,7 @@ import java.util.UUID;
 /**
  * Created by iriwen on 2018/7/4.
  */
-@Component("hello")
+@Component
 public class KafkaSender {
 
 

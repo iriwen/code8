@@ -6,3 +6,8 @@ build/**git
 build/*
 /out/
 **/build/
+.gradle/
+build/classes/main/com/h3c/joda/Cl.class
+build/classes/main/com/h3c/joda/LoaderTest2.class
+out/production/code8/
+src/main/java/com/h3c/joda/LoaderTest2.java

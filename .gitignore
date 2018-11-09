@@ -2,3 +2,6 @@
 /code8.iml
 .idea/**
 build/**git
+/.gradle/
+/out/
+/build/

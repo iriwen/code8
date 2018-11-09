@@ -3,5 +3,12 @@
 .idea/**
 build/**git
 /.gradle/
+build/*
 /out/
+**/build/
+.gradle/
+out/production/code8/
+
 /build/
+/.idea/
+/gradle/

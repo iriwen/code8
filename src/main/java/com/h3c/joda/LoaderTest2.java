@@ -47,5 +47,13 @@ public class LoaderTest2 {
 
             System.out.println(url);
         }
+
+        Class  strClass  = String.class;
+        //默认是启动类加载器  即bootStrap (程序里面返回是null)
+        System.out.println(strClass.getClassLoader());
+
+        Class appClass = LoaderTest2.class;
+        //是应用类加载器，默认是appclassLoader
+        System.out.println(appClass.getClassLoader());
     }
 }

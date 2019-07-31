@@ -1,4 +1,4 @@
-package com.h3c.stream1;
+package com.h3c.stream;
 
 import java.util.ArrayList;
 import java.util.HashMap;

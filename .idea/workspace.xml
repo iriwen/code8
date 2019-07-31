@@ -156,8 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="17" />
     <option name="width" value="1920" />
     <option name="height" value="1042" />
@@ -184,6 +183,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IdeaWorkSpace/code8/src/main/java/com/jvm/classloader/Mytest1.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -405,6 +405,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="code8.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloudos.kafka.MyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="code8_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.application.MyApplication" />
@@ -446,6 +453,7 @@
       <item itemvalue="Application.MyTest6" />
       <item itemvalue="Application.TestCount" />
       <item itemvalue="Spring Boot.MyApplication" />
+      <item itemvalue="Spring Boot.MyApplication (1)" />
     </list>
     <recent_temporary>
       <list>

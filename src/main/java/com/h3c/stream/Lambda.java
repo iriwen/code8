@@ -1,4 +1,4 @@
-package com.ysf.test;
+package com.h3c.stream;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.h3c.stream1;
+package com.h3c.stream;
 
 import com.h3c.entity.Student;
 

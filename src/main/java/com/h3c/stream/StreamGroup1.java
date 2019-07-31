@@ -1,4 +1,4 @@
-package com.h3c.stream1;
+package com.h3c.stream;
 
 import java.util.Arrays;
 import java.util.List;

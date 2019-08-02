@@ -16,10 +16,10 @@ public class Circle {
     }
 
     public String name;
-    public int num;
+    public Integer num;
 
 
-    public int getNum() {
+    public Integer getNum() {
         return num;
     }
 

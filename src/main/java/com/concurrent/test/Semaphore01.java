@@ -6,10 +6,36 @@ package com.concurrent.test;
  Semaphore维护了当前访问的个数，提供同步机制，控制同时访问的个数。在数据结构中链表可以保存“无限”的节点，用Semaphore可以实现有限大小的链表。
  另外重入锁ReentrantLock也可以实现该功能，但实现上要复杂些
 */
+import java.util.concurrent.Semaphore;
+
 public class Semaphore01 {
 
+    public static void main(String args[]) {
+        Semaphore semaphore = new Semaphore(2);
+        for (int i = 0; i < 10; i++) {
+            TaskThread test = new TaskThread(semaphore);
+            test.start();
+        }
+    }
 
+    static class TaskThread extends Thread {
 
+        public Semaphore semaphore ;
+        public TaskThread(Semaphore s){
+            this.semaphore = s;
+        }
 
+        public void run() {
+            try {
+                semaphore.acquire();
+                System.out.println(Thread.currentThread().getName() + " 获取到许可");
+                Thread.sleep(10000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } finally {
+                semaphore.release();
+            }
+        }
 
+    }
 }

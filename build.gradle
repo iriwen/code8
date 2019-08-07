@@ -1,5 +1,5 @@
 apply plugin: 'java'
-group 'com.h3c'
+group 'com.netease'
 version '1.0'
 
 sourceCompatibility = 1.8

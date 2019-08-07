@@ -13,3 +13,4 @@ out/production/code8/
 /.idea/
 **/.idea/**
 /gradle/
+/.idea/workspace.xml

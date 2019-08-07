@@ -17,7 +17,7 @@ public class GroupByTest {
         Student s2 = new Student(30, "lisi", "nanjing");
         Student s3 = new Student(40, "wangwu", "shanghai");
         Student s4 = new Student(26, "zhangsan", "suzhou");
-
+        //按照指定字段对集合分组形成map
         List<Student> list = Arrays.asList(s1, s2, s3, s4);
         Map<String, List<Student>> map1 = list.stream().collect(Collectors.groupingBy(item -> item.getName()));
         System.out.println(map1);

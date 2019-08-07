@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 
 public class RecursionTest {
 
-
     public static void main(String[] args) {
         Bot top = new Bot("0", "-1");
 
@@ -49,7 +48,6 @@ public class RecursionTest {
         List<Bot> bots = test.addChildren(gather, root);
         System.out.println(bots);
     }
-
 
     public List<Bot> addChildren(List<List<Bot>>  gather, List<Bot> botroot) {
         gather.add(botroot) ;

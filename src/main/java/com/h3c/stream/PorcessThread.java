@@ -1,14 +1,9 @@
 package com.h3c.stream;
 
 public class PorcessThread {
-
-
     public static void main(String[] args) throws InterruptedException {
-
         System.out.println("main thread :" + Thread.currentThread().getName());
         //Thread.sleep(10000);
-
-
         new Thread(() ->
         {
             for (; ; ) {
@@ -24,6 +19,5 @@ public class PorcessThread {
             }
 
         }).start();
-
     }
 }

@@ -1,7 +1,6 @@
 package com.h3c.stream;
 
 import com.h3c.entity.Circle;
-import sun.awt.image.ImageWatched;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,7 +8,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class CircleSortWithInner {
 
@@ -56,10 +54,8 @@ public class CircleSortWithInner {
 
         //circleList = circleList.stream().sorted(Comparator.comparing(Company::getCreateTime).reversed()).collect(Collectors.toList());//根据创建时间倒排
 
-
         //按num 属性值 降序
         Collections.sort(cirList, (a, b) -> b.getNum().compareTo(a.getNum()));
-
 
     }
 }

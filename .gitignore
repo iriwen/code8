@@ -11,5 +11,5 @@ out/production/code8/
 
 /build/
 /.idea/
-**/.idea/*
+**/.idea/**
 /gradle/

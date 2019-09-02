@@ -13,6 +13,12 @@ import java.util.stream.Collectors;
 public class GroupByTest {
 
     public static void main(String[] args) {
+
+        long a = 1;
+        Long a2 = new Long(1);
+        System.out.println(a2 == a);
+
+
         Student s1 = new Student(20, "zhangsan", "hangzhou");
         Student s2 = new Student(30, "lisi", "nanjing");
         Student s3 = new Student(40, "wangwu", "shanghai");

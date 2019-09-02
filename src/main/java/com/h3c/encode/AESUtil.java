@@ -11,7 +11,7 @@ import java.security.SecureRandom;
 public class AESUtil {
 
     public static Key getKey(String keySeed) {
-        /*if (keySeed == null) {
+        if (keySeed == null) {
             keySeed = System.getenv("AES_SYS_KEY");
         }
         if (keySeed == null) {
@@ -19,7 +19,7 @@ public class AESUtil {
         }
         if (keySeed == null || keySeed.trim().length() == 0) {
             keySeed = "abcd1234!@#$";// 默认种子
-        }*/
+        }
         try {
             SecureRandom secureRandom = SecureRandom.getInstance("SHA1PRNG");
             secureRandom.setSeed(keySeed.getBytes());

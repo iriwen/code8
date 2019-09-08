@@ -96,7 +96,7 @@ public class AesEncodeUtil {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        String content = "98.5674";
+        String content = "articleId=1001&eid=32323143243&sharerAccid=dswewqas908978xcsdsa";
         // 加密
         System.out.println("加密前：" + content);
         String encryptResult = encrypt(content);

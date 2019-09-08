@@ -15,13 +15,10 @@ dependencies {
             "org.springframework.boot:spring-boot-starter-web:1.5.9.RELEASE",
             "org.springframework.boot:spring-boot-starter-parent:1.5.9.RELEASE",
             "org.springframework.kafka:spring-kafka:1.1.1.RELEASE",
-             "com.google.code.gson:gson:2.8.2",
-            "org.projectlombok:lombok",
+            "com.google.code.gson:gson:2.8.2",
             "org.quartz-scheduler:quartz:2.3.0",
             "org.springframework:spring-context-support:4.0.6.RELEASE",
-            "org.mockito:mockito-all:1.10.19",
-            "org.mockito:mockito-core:2.9.0"
-
+            "org.elasticsearch:elasticsearch:6.4.2"
     )
 
 }

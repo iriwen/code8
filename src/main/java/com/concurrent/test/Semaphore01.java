@@ -21,8 +21,9 @@ public class Semaphore01 {
 
     static class TaskThread extends Thread {
 
-        public Semaphore semaphore ;
-        public TaskThread(Semaphore s){
+        public Semaphore semaphore;
+
+        public TaskThread(Semaphore s) {
             this.semaphore = s;
         }
 

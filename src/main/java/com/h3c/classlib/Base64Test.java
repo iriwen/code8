@@ -18,6 +18,5 @@ public class Base64Test {
 
         System.out.println(new String(decodebBytes, Charset.defaultCharset()));
 
-
     }
 }

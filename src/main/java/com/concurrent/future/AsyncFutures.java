@@ -29,11 +29,22 @@ public class AsyncFutures {
         List<CustomerEventEntity> res = CompletableFuture.allOf(futureArr).thenApply(v -> {
             List<CustomerEventEntity> customerEvents = futures.stream().map(item -> {
                 try {
+<<<<<<< HEAD
                     return item.get();
                 } catch (Exception e) {
                     logger.info("get customer event failed ");
                     return null;
                 }
+=======
+                    CustomerEventEntity customerEventEntity = item.get();
+                    if (customerEventEntity != null) {
+                        return customerEventEntity;
+                    }
+                } catch (Exception e) {
+                    logger.info("get customer event failed ");
+                }
+                return null;
+>>>>>>> future异步使用
             }).collect(Collectors.toList());
             return customerEvents;
         }).join();

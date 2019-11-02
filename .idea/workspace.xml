@@ -4,9 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da9c58ce-7f0f-4863-8125-e4003ccfd4cf" name="Default" comment=".gitignore 加入项目的workerspace.xml文件">
+
+    <list default="true" id="da9c58ce-7f0f-4863-8125-e4003ccfd4cf" name="Default" comment="linux下线程号（spid）测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/h3c/entity/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/h3c/entity/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrent/future/AsyncFutures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/future/AsyncFutures.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -112,6 +116,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1PPKmAJKaycT9AVGgu7ZCLdwX6K" />
+
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -389,6 +394,7 @@
       <item itemvalue="Application.Base64Test" />
       <item itemvalue="Application.StringTest1" />
       <item itemvalue="Application.Apple" />
+
       <item itemvalue="Spring Boot.MyApplication" />
       <item itemvalue="Spring Boot.MyApplication (1)" />
     </list>
@@ -645,17 +651,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/h3c/stream/RecursionTest.java</url>
-          <line>41</line>
+          <line>42</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/h3c/stream/RecursionTest.java</url>
-          <line>48</line>
+          <line>49</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/h3c/stream/PorcessThread.java</url>
-          <line>9</line>
+
+          <line>14</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
